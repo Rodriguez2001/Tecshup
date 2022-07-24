@@ -1,0 +1,489 @@
+@media (max-width: 642px ){
+    .nav{
+        
+        position: absolute;
+        top: 69px !important;
+        
+        width: 600px;
+        background: red;
+        
+        
+        
+    }
+    
+}
+@media (max-width: 410px ){
+    .nav{
+        
+        position: absolute;
+        top: 92px !important;
+        
+        width: 600px;
+        background: red;
+        
+        
+        
+    }
+}
+@media (max-width:380px){
+    .logo{
+        display: ;
+    }
+    .nav1-img{
+        display: none;
+         
+     }
+    .nav2-img{
+        position: absolute;
+        top: 95px;
+        right: 90px;
+        display: block;
+         
+     }
+}
+@media (max-width: 332px ){
+    .nav{
+        
+        position: absolute;
+        top: 117px !important;
+        
+        width: 600px;
+        background: red;
+        
+        
+        
+    }
+}
+
+
+@media (max-width:817px){
+    .input_container{
+        display: grid;
+        flex-direction: column;
+        align-content: center;
+        justify-content: flex-end;
+        
+        
+        
+        
+    }
+    
+    
+    
+    
+    #item_input {
+        display: none;
+        
+        
+    }
+    #item_buscador{
+        width: 150px;
+        height: 40px;
+        font-size: 30px;
+        position: relative;
+        top: -2.7px;
+        left: 20px;
+        background: none;
+        color: #000;
+        border: none;
+        
+    }
+    .busqueda{
+        display: block;
+        font-size: 10px;
+        color: #000;
+        font-weight: bolder;
+    }
+    
+}
+
+
+
+@media (max-width: 1292px){
+    .nav-menu{
+        
+        display: block;
+    }
+
+    .header_secundario{
+        display: block;
+    }
+
+
+
+ 
+    .nav{
+        
+        position: absolute;
+        top: 45px;
+        
+        width: 600px;
+        background: red;
+        
+        
+        
+    }
+    .nav-link{
+        color: #fff;
+        text-decoration: none;
+        font-family: 'Nunito',sans-serif!important;
+    }
+    .nav-menu{
+        flex-direction: column;
+        background: none;
+        list-style: none;
+        position: absolute;
+        top: 140px;
+        right: 100%;
+        z-index: 1000;
+        
+        
+        
+    }
+    
+    .nav-menu-item{
+        background: #000;
+        font-size: 20px;
+        
+        
+        text-transform: uppercase;
+        
+    }
+    
+    .nav-menu-link{
+        
+        border-radius: 3px;
+    }
+    .nav-menu-link:hover{
+        background-color: rgb(87, 87, 79);
+        
+    }
+
+
+    .nav-menu_visible{
+        right: 420px;
+        transition: right 0.5s;
+        
+        
+    }
+
+
+    /*seccion de banner */
+    
+.seccion_banner{
+    
+    margin-top: 30px;
+}
+.img{
+    width: 100%;
+    height: 83.2%;
+    position: absolute;
+    
+   
+}
+
+
+.siguiente i {
+    font-size: 100px;
+    color: rgb(8, 8, 8);
+    position: relative;
+    float: right;
+    width: 100%;
+    
+  
+}
+.siguiente  {
+    position: relative;
+    float: right;
+    top: 20em;
+    z-index: 1;
+    
+}
+
+
+.anterior i {
+    position: relative;
+    font-size: 100px;
+    color:rgb(8, 8, 8);
+    top: 3.2em;
+}
+
+    
+}
+
+
+@media (max-width:840px){
+    .header_secundario{
+        display: block;
+    }
+    
+    
+    
+}
+
+
+@media (max-width:638px){
+    .oferta{
+        margin: 8px 10px;
+    }
+    #contacto{
+        margin: 8px -5px 0px 0px;
+        text-transform: uppercase;
+        
+        
+    }
+}
+
+@media (max-width:1200px){
+    .ban{
+        
+        grid-area: ban;
+        height: 740px !important;
+       
+        
+    }
+    .carousel-item img{
+        width: 100%;
+        height: 740px !important;
+       
+    }
+}
+@media (max-width:992px){
+    .ban{
+        
+        grid-area: ban;
+        height: 440px !important;
+       
+        
+    }
+    .carousel-item img{
+        width: 100%;
+        height: 440px !important;
+       
+    }
+}
+@media (max-width:768px){
+    .ban{
+        
+        grid-area: ban;
+        height: 340px !important;
+       
+        
+    }
+    .carousel-item img{
+        width: 100%;
+        height: 340px !important;
+       
+    }
+}
+@media (max-width:400px){
+    .ban{
+        
+        grid-area: ban;
+        height: 300px !important;
+       
+        
+    }
+    .carousel-item img{
+        width: 100%;
+        height: 300px !important;
+       
+    }
+}
+@media (max-width:317px){
+    .ban{
+       
+        grid-area: ban;
+        height: 300px !important;
+       
+        
+    }
+    .carousel-item img{
+        width: 100%;
+        height: 300px !important;
+       
+    }
+}
+
+@media (max-width:500px){
+    .header_item{
+        width: 100px;
+        height: 100px;
+        
+        
+        
+        
+    }
+    .input_container{
+        display: none;
+        background: rgb(83, 108, 83);
+        
+        
+    }
+    
+   
+    .buscador{
+        display: none;
+    }
+    .buscar{
+
+    }
+    .busquedatext{
+        font-size: 10px;
+        
+        font-weight: bold;
+        text-transform: uppercase;
+        position: relative;
+        top: -5px;
+    }
+    
+
+    .logo a{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .nav1-img{
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+        margin: 5px;
+        
+    }
+    .busquedaaa{
+        display: block;
+        
+        position: relative;
+        left: 20px;
+    }
+    #nav1-menu-menu{
+        
+       
+    }
+    
+    center button i{
+        font-size: 30px;
+        background: #EAEAEA;
+        border: 1px solid #EAEAEA;
+    }
+    button {
+        
+        background: #EAEAEA;
+        border: 1px solid #EAEAEA;
+    }
+}
+@media (max-width:1600px){
+
+    .footer_item{
+        width: 300px;
+        height: 100px;
+        
+       
+        margin-left: 1em;
+    }
+    .footer_item a:hover{
+        color: red;
+    }
+    
+    
+    .copyright{
+        text-align: center;
+        margin-top: 35px;
+        color: #fff;
+        font-size: small;
+        font-weight: lighter;
+        text-decoration: underline;
+    
+    }
+}
+@media (max-width:1290px){
+
+   /*
+    .footer_item{
+        width: 300px;
+        height: 100px;
+        display: inline-block;
+       
+        margin-left: 1em;
+    }
+    .footer_item a:hover{
+        color: red;
+    }
+    
+    
+    .copyright{
+        text-align: center;
+        margin-top: 35px;
+        color: #fff;
+        font-size: small;
+        font-weight: lighter;
+        text-decoration: underline;
+    
+    }
+   */
+}
+
+@media(max-width:1342px){
+    .div_container_pie{
+        width: 100%;
+        min-height: auto;
+        position: relative;
+        top: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        z-index: 3;
+        
+        align-content: center  !important;
+        
+        
+        
+        
+        
+        
+    }
+    .seccion_principal{
+   
+        width: 100%;
+        /*height: 100vh;*/
+        
+        
+        
+    
+        
+    }
+
+    .seccion_principal-container{
+        padding: 0 50px !important;
+    }
+
+    .footer_item{
+    
+    
+        display: flex;
+        
+        flex-direction: column;
+        justify-content: center !important;
+        margin: auto;
+        
+        position: relative;
+        
+    }
+    .caja1{
+        position: relative;
+        left: 0;
+    }
+
+    
+}
+
+/*
+Pantallas grandes (lo que llaman LG) a partir de 1200 pixels
+Pantlallas medias (serán las MD) a partir de 992 pixels
+Pantallas tipo tablet (las SM) a partir de 768 pixels
+*/
+
+
+
+
+

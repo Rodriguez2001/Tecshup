@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+body{
+    background-color: #f8f2f2;
+    
+}
+/*Es para el encabezado*/
+.navMenu{
+    color: #000;
+    display: flex;
+    padding: 0px;
+    width: 100%;
+    background-color: #fff;
+}
+.oferta{
+    margin: 8px auto;
+}
+#contacto{
+    margin: 8px 20px 0px 0px;
+    text-transform: uppercase;
+    
+}
+
+
+
+
+/*Es para el logo-input-cuentacarrito*/
+.header_container{
+    display: flex;
+    background: #EAEAEA;
+    
+    width: 100%;
+    height: 100px;
+
+}
+.header_item{
+    width: 200px;
+    height: 100px;
+    
+    
+    
+}
+.buscador{
+    flex-grow: 2.5;
+    margin-left:-10px;
+    position: relative;
+    right: 0;
+    
+}
+.menu_inicio_carrito{
+    flex-grow: 1;
+    margin-left: 5px;
+    
+}
+.logo a{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav1-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin: 5px;
+    
+}
+
+.nav1-menu{
+    display: flex;
+    list-style-type: none;
+    float: right;
+    margin-top: 37px;
+    margin-right: 5px;
+  
+    
+    
+    
+}
+.nav-menu-lin{
+   display: flex;
+   flex-direction: column-reverse;
+   margin-left: 25px;
+    
+}
+
+
+
+.nav1-menu li a i{
+    font-size: 30px;
+    position: relative;
+    top: 0;
+    
+    color: #000;
+    font-weight: bold;
+}
+.nav1-menu li a i:hover{
+    font-size: 30px;
+    position: relative;
+    top: 0;
+    
+    color: red;
+    font-weight: bold;
+}
+.nav1-menu li a {
+    font-size: 10px;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+
+}
+.nav1-menu li a:hover {
+    font-size: 10px;
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+
+}
+
+.ini{
+    margin-left: -1px;
+}
+ .ubi{
+     
+     margin-left: -15px;
+     
+ }
+ .cue{
+    margin-left: -7px;
+}
+.car{
+    margin-left: -5px;
+}
+    
+    
+
+.input_container{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 40px;
+    
+    
+}
+
+#item_input, #item_buscador{
+    width: 500px;
+    height: 30px;
+    
+    
+}
+
+
+#item_input {
+    padding-left: 10px;
+    flex-grow: 1;
+    border-radius: 10px 0 0 10px;
+    border: 2px solid #000;
+    
+}
+#item_buscador{
+    width: 40px;
+    height: 30px;
+    background: #000;
+    color: #fff;
+    margin-right: 10px;
+    position: relative;
+    left: -3px;
+    border-radius: 0 10px 10px 0;
+}
+.busqueda{
+    display: none;
+}
+
+.busquedaaa{
+    display: none;
+}
+
+.nav2-img{
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    top: 45px;
+    right: 70px;
+    display: none;
+    
+}
+
+
+
+
+

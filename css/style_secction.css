@@ -1,0 +1,290 @@
+
+.grid-containerrr{
+    display: grid;
+    
+    grid-template-areas: 
+    "ban" "ban" "ban"
+    "sec" "sec"
+    "foot" "foot" "foot";
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://acegif.com/wp-content/uploads/2021/4fh5wi/animated-wallpaper-240x320px-acegif-39.gif');
+    
+}
+.grid-item{
+    
+    padding: 20px;
+    
+}
+.ban{
+   
+    grid-area: ban;
+    height: 752px;
+    
+}
+
+.sec{
+   
+    
+    grid-area: sec;
+    /*height: 140vh;*/
+    display: grid;
+    background: #fff;
+    
+    
+    
+}
+.foot{
+   
+  
+   
+    
+    
+    
+    
+}
+/*
+@media(max-width:66356px){
+    .carousel-item img{
+        width: 100%;
+        height: 122em !important;
+       
+    }
+}
+@media(max-width:1736px){
+    .carousel-item img{
+        width: 100%;
+        height: 752px !important;
+       
+    }
+}
+@media(max-width:1972px){
+    .carousel-item img{
+        width: 100%;
+        height: 122em !important;
+       
+    }
+}
+*/
+
+/*.grid-containerrr{
+    display: grid;
+    
+    grid-template-areas: 
+    "ban" "ban" "ban"
+    "sec" "sec"
+    "foot" "foot" "foot";
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 100%;
+    height: 100vh;
+    background: red;
+}*/
+
+
+.carousel-item img{
+    width: 100%;
+    height: 752px;
+   
+}
+
+
+.carousel{
+    width: 100%;
+    
+    position: relative;
+    top: -20px;
+    
+    
+    
+}
+.carousel-indicators button{
+    width: 10px;
+    height: 700px;
+    border-radius: 100%;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    font-size: 200px !important;
+    
+    
+    font-weight: 900;
+}
+
+
+
+
+
+.seccion_principal{
+   
+    width: 100%;
+    /*height: 100vh;*/
+    
+    padding: 0 ;
+    
+
+    
+}
+.seccion_principal-container{
+    padding: 0 350px;
+}
+
+.nuevos_ingresos{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.letra-ingreso-nuevo{
+    margin-right: auto;
+}
+.nuevos_ingresos-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(170px, 1fr));
+    grid-gap: 10px;
+    
+
+}
+
+.zapatillas_ingresos-nuevos img{
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    
+}
+.zapatillas_ingresos-nuevos{
+    border: 2px solid #000;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+
+
+.novedad{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.letra-novedad{
+    margin-right: auto;
+}
+
+.novedades_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(230px, 1fr));
+    grid-gap: 10px;
+    
+
+}
+
+.item_novedades img{
+    width: 180px;
+    height: 120px;
+    object-fit: cover;
+    
+}
+.item_novedades{
+    border: 2px solid #000;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+.productos_destacados{
+    display: grid;
+    grid-template-rows: repeat(auto-fill, minmax(10px, 1fr));
+    grid-gap: 10px;
+    
+}
+.product{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.pr-dest{
+    margin-right: auto;
+}
+.productos_destacados{
+    width: 100%;
+    /*height: 55vh;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.producto_principal{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px , 1fr));
+    
+    width: 100%;
+    /*height: 200px;*/
+}
+.producto_item{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px , 1fr));
+    
+    width: 100%;
+    /*height: 200px;*/
+}
+.item_producto{
+    border: 1px solid #000;
+    overflow: hidden;
+    
+    
+}
+
+.item_producto img{
+    width: 281px;
+    height: 240px;
+    object-fit: cover;
+}
+.pp1{
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(230px , 1fr));
+}
+
+
+.ite_producto-secundario img{
+    width: 225px;
+    height: 170px;
+}
+.pp2{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(190px , 1fr));
+    
+    width: 100%;
+    /*height: 200px;*/
+    grid-gap: 10px;
+}
+
+
+
+
+.Publicidad_producto img{
+    width: 190px;
+    height: 200px;
+}
+.publicidad{
+    display: flex;
+}
+.VerProducto{
+    margin-left: auto;
+}
+
+
+.zapatillas_ingresos-nuevos img{
+    
+    width: 180px;
+}
+.item_novedades{
+    display: flex;
+    flex-direction: column;
+}
+.item_novedades img{
+    border: 5px solid green;
+    width: 190px;
+    
+    position: relative;
+    left: 40px;
+    
+}
+.detalle{
+    padding: 0 10px 0 10px;
+}
+
+
+
+
+

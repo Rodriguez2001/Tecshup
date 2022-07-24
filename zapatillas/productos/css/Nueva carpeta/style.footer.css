@@ -1,0 +1,127 @@
+.footer_pie-pagina{
+    width: 100%;
+    height: 230px;
+    background-color: #671212;
+    position: absolute;
+    bottom: -78px;
+    margin-bottom: -195px;
+}
+.div_pie-pagina{
+    width: 100%;
+    height: 170px;
+    margin-top: 60px;
+    
+    background-color:#3D2F2F;
+    
+}
+.footer_item{
+    width: 300px;
+    height: 140px;
+    display: inline-block;
+   margin-top: 10px;
+    margin-left: 10em;
+}
+.footer_item a:hover{
+    color: red;
+}
+
+.caja1{
+    
+    /*background-color: rgb(21, 179, 76);*/
+    height: 10px;
+    
+    
+}
+/*
+.caja2{
+    background-color: rgb(51, 176, 112);
+}
+.caja3{
+    background-color: rgb(221, 200, 44);
+}
+*/
+.caja4{
+    margin-top: -500px;
+   /* background-color: rgb(224, 29, 81);*/
+    height: 20px;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 5px;
+    color: #fff;
+    font-size: small;
+    font-weight: lighter;
+    text-decoration: underline;
+
+}
+footer div div a{
+    margin: 0;
+    padding: 0;
+    /*background-color: orange;*/
+    height: 30px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    
+}
+.red{
+    margin: -30px 0px 0px 70px;
+    
+    display: flex;
+}
+.img_instagram,  .img_messenger, .img_facebook, .img_linkedin{
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+    
+}
+
+.pago{
+    margin: -30px 0px 0px 90px;
+    
+    display: flex;
+}
+.img_visa,  .img_masterCard, .img_pagoEfectivo, .img_Diners{
+    height: 20px;
+    width: 40px;
+    margin-left: 0;
+    
+}
+@media (max-width:1600px){
+
+    .footer_item{
+        width: 300px;
+        height: 100px;
+        display: inline-block;
+       
+        margin-left: 1em;
+    }
+    .footer_item a:hover{
+        color: red;
+    }
+    
+    .caja1{
+        top: 0;
+        /*background-color: rgb(43, 138, 201);*/
+        height: 10px;
+        
+        margin-top: -20em;
+        
+    }
+    .caja4{
+        margin-top: -500px;
+       /* background-color: rgb(224, 29, 81);*/
+        height: 0px;
+    }
+    .copyright{
+        text-align: center;
+        margin-top: 35px;
+        color: #fff;
+        font-size: small;
+        font-weight: lighter;
+        text-decoration: underline;
+    
+    }
+}
+

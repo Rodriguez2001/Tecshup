@@ -1,0 +1,132 @@
+
+.div_pie-pagina{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    
+    min-height: auto;
+    
+    
+    background-color:#3D2F2F;
+    
+}
+.div_container_pie{
+    width: 100%;
+    min-height: auto;
+    position: relative;
+    top: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    z-index: 3;
+    
+    
+    
+    
+    
+    
+    
+}
+
+.footer_item{
+    
+    
+    display: flex;
+    
+    flex-direction: column;
+    
+    position: relative;
+    top: 8px;
+    
+    
+}
+.footer_item a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer_item a:hover{
+    color: red;
+}
+
+
+
+
+
+
+.copyright{
+    text-align: center;
+    margin-top: 5px;
+    color: #fff;
+    font-size: small;
+    font-weight: lighter;
+    text-decoration: underline;
+
+}
+
+.red{
+    margin: -25px 0px 0px 70px;
+    
+    display: flex;
+}
+.img_instagram,  .img_messenger, .img_facebook, .img_linkedin{
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+    
+}
+
+.pago{
+    margin: -25px 0px 0px 90px;
+    
+    display: flex;
+}
+.img_visa,  .img_masterCard, .img_pagoEfectivo, .img_Diners{
+    height: 20px;
+    width: 40px;
+    margin-left: 0;
+    
+}
+.caja1{
+    position: relative;
+    left: 40px;
+}
+/*.grid-containerrr{
+    display: grid;
+    
+    grid-template-areas: 
+    "ban" "ban" "ban"
+    "sec" "sec"
+    "foot" "foot" "foot";
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100%;
+    
+}
+.grid-item{
+    background: red;
+    padding: 20px;
+    
+}
+.ban{
+    background: rgb(40, 177, 131);
+    grid-area: ban;
+    height: 54vh;
+    
+}
+.sec{
+    background: orange;
+    grid-area: sec;
+    height:100vh;
+}
+.foot{
+    background: yellowgreen;
+    grid-area: foot;
+    
+   
+    
+}
+*/
+.foot{
+    background-color: #671212;
+    height: 70px;
+}
+

@@ -1,0 +1,74 @@
+
+
+.seccion_zapatillas{
+    width: 100%;
+    height: 820px;
+    background: url('https://fondosmil.com/fondo/87609.jpg') no-repeat; 
+    background-image: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    top: 31px;
+    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.zapatillas_mujeres{
+    min-width: 120px;
+    height: 180px;
+    
+    margin: 7px;
+    padding: 10px;
+    padding-bottom: 35px;
+    flex:0;
+
+    
+    
+    
+}
+.zapatillas_mujeres:hover{
+    border-radius: 10px 10px 10px 10px;
+   
+    color: red;
+    position: static;
+    background: rgb(194, 189, 189);
+}
+.zapatillas_mujeres a{
+    text-decoration: none;
+}
+.z-m{
+    
+   font-size: 15px;
+   position: relative;
+   color: #000;
+   
+   top: 5px;
+    
+}
+.div_container{
+    width: 944px;
+    height: 544px ;
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+    margin-left: 200px;
+    margin-right: 200px;
+   
+    top: 70px;
+    position: relative;
+    z-index: 1;
+    
+}
+.div_container  div  img{
+    width: 130px;
+    height: 120px;
+    position: relative;
+    left: -5px;
+    
+    
+}
+.precio{
+    margin-top: 5px;
+    color: red;
+}
